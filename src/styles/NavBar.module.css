@@ -23,6 +23,12 @@
 .li__menu {
   margin: 0 5rem;
   list-style: none;
+  background-color: #f0d0a9;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.li__menu:hover {
+  background-color: #cb4612;
 }
 .a__menu {
   text-align: center;
@@ -32,4 +38,7 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 1rem;
+}
+.a__menu:hover {
+  color: #f4f4f4;
 }

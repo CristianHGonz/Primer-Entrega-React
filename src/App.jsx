@@ -5,7 +5,7 @@ function App() {
   return (
     <div>
       <NavBar />
-      <ItemListContainer text="En construcción, próximamente exibiremos nuestros productos" />
+      <ItemListContainer text="En construcción, próximamente exhibiremos nuestros productos" />
     </div>
   );
 }
