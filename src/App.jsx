@@ -1,12 +1,16 @@
-import { NavBar } from "./components/NavBar";
+import { NavBarConteiner } from "./components/NavBarConteiner";
 import { ItemListContainer } from "./components/ItemListContainer";
+import { BrowserRouter, Routes, Route } from "react-router";
 
 function App() {
   return (
-    <div>
-      <NavBar />
-      <ItemListContainer text="En construcción, próximamente exhibiremos nuestros productos" />
-    </div>
+    <BrowserRouter>
+      <NavBarConteiner />
+      <Routes>
+        <Route path="/" element={<ItemListContainer />} />
+        <Route path="/categoria/:prodCat" element={<ItemListContainer />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
